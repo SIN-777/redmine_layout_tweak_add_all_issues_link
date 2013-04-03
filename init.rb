@@ -2,11 +2,11 @@ require 'redmine'
 
 Redmine::Plugin.register :redmine_layout_tweak_add_all_issues_link do
   name 'Redmine Layout Tweak Add All Issues Link plugin'
-  author 'Author name'
-  description 'This is a plugin for Redmine'
+  author 'Shingo Sekiguchi'
+  description 'Add link to "All Issues" to top menu.'
   version '0.0.1'
-  url 'http://example.com/path/to/plugin'
-  author_url 'http://example.com/about'
+  url 'https://github.com/SIN-777/redmine_layout_tweak_add_all_issues_link'
+  author_url ''
 end
 
 Redmine::MenuManager.map :top_menu do |menu|
